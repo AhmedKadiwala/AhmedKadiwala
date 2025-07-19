@@ -258,29 +258,104 @@
     <span>Coding Ninjas</span>
   </a>
 </div>
-
-<!-- Footer -->
+<!-- Clean Professional Footer -->
 <div style="
   margin-top: 4rem;
-  padding: 1.5rem;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 2rem 1.5rem;
+  background: rgba(20, 20, 40, 0.8);
+  border-top: 1px solid rgba(0, 184, 148, 0.2);
+  position: relative;
+  overflow: hidden;
 ">
-  <p align="center" style="margin: 0;">
-    <img src="https://komarev.com/ghpvc/?username=AhmedKadiwala&label=Profile+Views&color=00b894&style=flat" alt="Profile Views" />
-    <span style="margin: 0 10px;">•</span>
-    Made with ❤️ using Markdown & GitHub
-    <span style="margin: 0 10px;">•</span>
-    Last updated: July 2024
-  </p>
+  <!-- Subtle animated background -->
+  <div style="
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle at 50% 50%, rgba(0, 184, 148, 0.05) 0%, transparent 70%);
+    z-index: 0;
+  "></div>
+
+  <div style="
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    gap: 1rem;
+  ">
+    <!-- Footer Navigation -->
+    <div style="
+      display: flex;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+      justify-content: center;
+    ">
+      <a href="#about" style="
+        color: rgba(255, 255, 255, 0.8);
+        text-decoration: none;
+        transition: all 0.3s ease;
+        font-size: 0.9rem;
+      ">About</a>
+      <a href="#tech-stack" style="
+        color: rgba(255, 255, 255, 0.8);
+        text-decoration: none;
+        transition: all 0.3s ease;
+        font-size: 0.9rem;
+      ">Tech Stack</a>
+      <a href="#connect" style="
+        color: rgba(255, 255, 255, 0.8);
+        text-decoration: none;
+        transition: all 0.3s ease;
+        font-size: 0.9rem;
+      ">Connect</a>
+    </div>
+ <!-- Build Info -->
+    <p style="
+      margin: 0;
+      font-size: 0.85rem;
+      color: rgba(255, 255, 255, 0.6);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    ">
+      <span>Built with</span>
+      <span style="color: #00b894;">♥</span>
+      <span>using</span>
+      <a href="https://code.visualstudio.com/" target="_blank" style="
+        color: #00b894;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        gap: 0.25rem;
+      ">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="14" />
+        VS Code
+      </a>
+    </p>
+ <!-- Copyright -->
+    <p style="
+      margin: 0;
+      font-size: 0.8rem;
+      color: rgba(255, 255, 255, 0.5);
+    ">
+      © <span id="currentYear"></span> Ahmed Kadiwala. All rights reserved.
+    </p>
+  </div>
 </div>
 
+<script>
+// Auto-update copyright year
+document.addEventListener('DOMContentLoaded', function() {
+  document.getElementById('currentYear').textContent = new Date().getFullYear();
+});
+</script>
+
 <style>
-  a {
-    transition: all 0.3s ease;
-  }
   a:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 5px 15px rgba(0, 184, 148, 0.3);
+    color: #00b894 !important;
+    text-shadow: 0 0 8px rgba(0, 184, 148, 0.3);
   }
 </style>
-</div>
