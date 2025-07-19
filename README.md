@@ -58,7 +58,7 @@
     border: 1px solid rgba(255,255,255,0.15);
     box-shadow: 0 10px 30px rgba(0,0,0,0.25);
   ">
-    <img src="https://github-readme-stats.vercel.app/api?username=AhmedKadiwala&show_icons=true&theme=dark&hide_border=true&bg_color=00000000&title_color=00b894&hide=issues,prs" alt="GitHub Stats" width="100%" />
+    <img src="https://github-readme-stats.vercel.app/api?username=AhmedKadiwala&show_icons=true&theme=dark&hide_border=true&bg_color=00000000&title_color=00b894&include_all_commits=true&count_private=true" alt="GitHub Stats" width="100%" />
     <div style="text-align: center; margin-top: 1rem;">
       <a href="https://github.com/AhmedKadiwala?tab=repositories" target="_blank" style="
         background: linear-gradient(to right, #00b894, #0984e3);
@@ -155,23 +155,6 @@
     <p style="margin: 0.5rem 0 0; font-size: 0.9rem; text-align: center;">Professional Network</p>
   </a>
 
-  <a href="https://github.com/AhmedKadiwala" target="_blank" style="
-    background: rgba(36, 41, 46, 0.1);
-    border-radius: 16px;
-    padding: 1.5rem;
-    border: 1px solid rgba(255,255,255,0.2);
-    text-decoration: none;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    transition: all 0.3s ease;
-  ">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="50" alt="GitHub" style="margin-bottom: 1rem;" />
-    <h3 style="margin: 0; color: #00b894;">GitHub</h3>
-    <p style="margin: 0.5rem 0 0; font-size: 0.9rem; text-align: center;">My Projects</p>
-  </a>
-
   <a href="https://leetcode.com/u/kadiwalaahmed7864/" target="_blank" style="
     background: rgba(255, 161, 22, 0.1);
     border-radius: 16px;
@@ -184,7 +167,7 @@
     align-items: center;
     transition: all 0.3s ease;
   ">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/leetcode/leetcode-original.svg" width="50" alt="LeetCode" style="margin-bottom: 1rem;" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/leetcode/leetcode-plain.svg" width="50" alt="LeetCode" style="margin-bottom: 1rem;" />
     <h3 style="margin: 0; color: #00b894;">LeetCode</h3>
     <p style="margin: 0.5rem 0 0; font-size: 0.9rem; text-align: center;">Coding Solutions</p>
   </a>
