@@ -1,6 +1,6 @@
 <div align="center">
 
-<!-- Header with Profile View Counter -->
+<!-- Header Section -->
 <div style="
   position: relative;
   padding: 2rem;
@@ -9,8 +9,10 @@
   background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
   border: 1px solid rgba(0, 184, 148, 0.3);
   box-shadow: 0 10px 30px rgba(0, 184, 148, 0.2);
+  overflow: hidden;
 ">
-  <img src="car.gif" alt="Developer Banner" width="85%" style="border-radius: 12px;" />
+  <!-- Banner Image -->
+  <img src="https://raw.githubusercontent.com/AhmedKadiwala/AhmedKadiwala/main/car.gif" alt="Developer Banner" width="85%" style="border-radius: 12px;" />
   
   <!-- Profile View Counter -->
   <div style="
@@ -28,6 +30,47 @@
   ">
     <img src="https://komarev.com/ghpvc/?username=AhmedKadiwala&label=Profile+Views&color=00b894&style=flat" alt="Profile Views" />
   </div>
+
+  <!-- Quick Links -->
+  <div style="
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+  ">
+    <a href="https://github.com/AhmedKadiwala" target="_blank" style="
+      background: rgba(36, 41, 46, 0.7);
+      padding: 8px 16px;
+      border-radius: 20px;
+      color: white;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      border: 1px solid rgba(255,255,255,0.1);
+    ">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="18" />
+      GitHub
+    </a>
+    <a href="https://www.linkedin.com/in/ahmed-kadiwala-789831265/" target="_blank" style="
+      background: rgba(10, 102, 194, 0.7);
+      padding: 8px 16px;
+      border-radius: 20px;
+      color: white;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      border: 1px solid rgba(255,255,255,0.1);
+    ">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="18" />
+      LinkedIn
+    </a>
+  </div>
 </div>
 
 <!-- Dynamic Typing Intro -->
@@ -39,12 +82,10 @@
   border-left: 5px solid #00b894;
   box-shadow: 0 10px 30px rgba(0, 184, 148, 0.15);
 ">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=1200&pause=800&color=00B894&background=FFFFFF00&center=true&vCenter=true&multiline=true&width=900&height=300&lines=Hello+World!+👋;I'm+Ahmed+Kadiwala;Data+Science+Specialist;AI%2FML+Engineer;Full-Stack+Developer;Open-Source+Contributor" alt="Typing SVG" />
-  </a>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=1200&pause=800&color=00B894&background=FFFFFF00&center=true&vCenter=true&multiline=true&width=900&height=300&lines=Hello+World!+👋;I'm+Ahmed+Kadiwala;Data+Science+Specialist;AI%2FML+Engineer;Python+Developer;Open-Source+Contributor" alt="Typing SVG" />
 </div>
 
-<!-- GitHub Stats Section -->
+<!-- GitHub Stats -->
 <h2 style="
   color: #00b894;
   font-size: 2.2rem;
@@ -61,46 +102,37 @@
   max-width: 1200px;
 ">
   <!-- Stats Card -->
-  <a href="https://github.com/AhmedKadiwala" target="_blank" style="text-decoration: none;">
-    <div style="
-      background: rgba(25, 25, 45, 0.9);
-      border-radius: 18px;
-      padding: 1.8rem;
-      border: 1px solid rgba(255,255,255,0.15);
-      box-shadow: 0 10px 30px rgba(0,0,0,0.25);
-      transition: all 0.3s ease;
-    ">
-      <img src="https://github-readme-stats.vercel.app/api?username=AhmedKadiwala&show_icons=true&theme=dark&hide_border=true&bg_color=00000000&title_color=00b894" width="100%" />
+  <div style="
+    background: rgba(25, 25, 45, 0.9);
+    border-radius: 18px;
+    padding: 1.8rem;
+    border: 1px solid rgba(255,255,255,0.15);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+  ">
+    <img src="https://github-readme-stats.vercel.app/api?username=AhmedKadiwala&show_icons=true&theme=dark&hide_border=true&bg_color=00000000&title_color=00b894" alt="GitHub Stats" width="100%" />
+    <div style="text-align: center; margin-top: 1rem;">
+      <a href="https://github.com/AhmedKadiwala?tab=repositories" target="_blank" style="
+        background: linear-gradient(to right, #00b894, #0984e3);
+        padding: 8px 16px;
+        border-radius: 8px;
+        color: white;
+        text-decoration: none;
+        font-size: 0.9rem;
+        display: inline-block;
+      ">View All Repositories</a>
     </div>
-  </a>
+  </div>
   
   <!-- Languages Card -->
-  <a href="https://github.com/AhmedKadiwala?tab=repositories" target="_blank" style="text-decoration: none;">
-    <div style="
-      background: rgba(25, 25, 45, 0.9);
-      border-radius: 18px;
-      padding: 1.8rem;
-      border: 1px solid rgba(255,255,255,0.15);
-      box-shadow: 0 10px 30px rgba(0,0,0,0.25);
-      transition: all 0.3s ease;
-    ">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs?username=AhmedKadiwala&layout=compact&theme=dark&hide_border=true&bg_color=00000000&title_color=00b894" width="100%" />
-    </div>
-  </a>
-  
-  <!-- Streak Card -->
-  <a href="https://github.com/AhmedKadiwala" target="_blank" style="text-decoration: none;">
-    <div style="
-      background: rgba(25, 25, 45, 0.9);
-      border-radius: 18px;
-      padding: 1.8rem;
-      border: 1px solid rgba(255,255,255,0.15);
-      box-shadow: 0 10px 30px rgba(0,0,0,0.25);
-      transition: all 0.3s ease;
-    ">
-      <img src="https://streak-stats.demolab.com?user=AhmedKadiwala&theme=dark&hide_border=true&background=00000000&ring=00b894" width="100%" />
-    </div>
-  </a>
+  <div style="
+    background: rgba(25, 25, 45, 0.9);
+    border-radius: 18px;
+    padding: 1.8rem;
+    border: 1px solid rgba(255,255,255,0.15);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+  ">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs?username=AhmedKadiwala&layout=compact&theme=dark&hide_border=true&bg_color=00000000&title_color=00b894" alt="Top Languages" width="100%" />
+  </div>
 </div>
 
 <!-- Tech Stack Section -->
@@ -119,25 +151,7 @@
   margin: 2rem auto;
   max-width: 1200px;
 ">
-  <!-- Web Development -->
-  <div style="
-    background: rgba(30, 30, 50, 0.9);
-    border-radius: 16px;
-    padding: 1.5rem;
-    border: 1px solid rgba(0, 184, 148, 0.3);
-  ">
-    <h3 style="color: #00b894; margin-top: 0; font-size: 1.4rem;">🌐 Web Development</h3>
-    <div style="display: flex; flex-wrap: wrap; gap: 15px; justify-content: center;">
-      <img src="https://cdn.jsdelivr.net/gh/tandpfun/skill-icons/icons/JavaScript.svg" height="45" title="JavaScript" />
-      <img src="https://cdn.jsdelivr.net/gh/tandpfun/skill-icons/icons/React-Dark.svg" height="45" title="React" />
-      <img src="https://cdn.jsdelivr.net/gh/tandpfun/skill-icons/icons/NextJS-Light.svg" height="45" title="Next.js" />
-      <img src="https://cdn.jsdelivr.net/gh/tandpfun/skill-icons/icons/HTML.svg" height="45" title="HTML5" />
-      <img src="https://cdn.jsdelivr.net/gh/tandpfun/skill-icons/icons/CSS.svg" height="45" title="CSS3" />
-      <img src="https://cdn.jsdelivr.net/gh/tandpfun/skill-icons/icons/TailwindCSS-Light.svg" height="45" title="Tailwind CSS" />
-    </div>
-  </div>
-
-  <!-- Data Science -->
+  <!-- Data Science Card -->
   <div style="
     background: rgba(30, 30, 50, 0.9);
     border-radius: 16px;
@@ -146,16 +160,16 @@
   ">
     <h3 style="color: #9b59b6; margin-top: 0; font-size: 1.4rem;">🧠 Data Science & AI</h3>
     <div style="display: flex; flex-wrap: wrap; gap: 15px; justify-content: center;">
-      <img src="https://cdn.jsdelivr.net/gh/tandpfun/skill-icons/icons/Python-Dark.svg" height="45" title="Python" />
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" height="45" title="NumPy" />
-      <img src="https://cdn.jsdelivr.net/gh/tandpfun/skill-icons/icons/TensorFlow-Dark.svg" height="45" title="TensorFlow" />
-      <img src="https://cdn.jsdelivr.net/gh/tandpfun/skill-icons/icons/PyTorch-Light.svg" height="45" title="PyTorch" />
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" height="45" title="Pandas" />
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/openapi/openapi-original.svg" height="45" title="OpenAI" />
+      <img src="https://cdn.jsdelivr.net/gh/tandpfun/skill-icons/icons/Python-Dark.svg" height="45" alt="Python" title="Python" />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" height="45" alt="NumPy" title="NumPy" />
+      <img src="https://cdn.jsdelivr.net/gh/tandpfun/skill-icons/icons/TensorFlow-Dark.svg" height="45" alt="TensorFlow" title="TensorFlow" />
+      <img src="https://cdn.jsdelivr.net/gh/tandpfun/skill-icons/icons/PyTorch-Light.svg" height="45" alt="PyTorch" title="PyTorch" />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" height="45" alt="Pandas" title="Pandas" />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/openapi/openapi-original.svg" height="45" alt="OpenAI" title="OpenAI" />
     </div>
   </div>
 
-  <!-- Databases & Tools -->
+  <!-- Databases & Tools Card -->
   <div style="
     background: rgba(30, 30, 50, 0.9);
     border-radius: 16px;
@@ -164,12 +178,10 @@
   ">
     <h3 style="color: #2ecc71; margin-top: 0; font-size: 1.4rem;">🗄️ Databases & Tools</h3>
     <div style="display: flex; flex-wrap: wrap; gap: 15px; justify-content: center;">
-      <img src="https://cdn.jsdelivr.net/gh/tandpfun/skill-icons/icons/MongoDB.svg" height="45" title="MongoDB" />
-      <img src="https://cdn.jsdelivr.net/gh/tandpfun/skill-icons/icons/MySQL-Dark.svg" height="45" title="MySQL" />
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kaggle/kaggle-original-wordmark.svg" height="45" title="SQLite" />
-      <img src="https://cdn.jsdelivr.net/gh/tandpfun/skill-icons/icons/Git.svg" height="45" title="Git" />
-      <img src="https://cdn.jsdelivr.net/gh/tandpfun/skill-icons/icons/Github-Light.svg" height="45" title="GitHub" />
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" height="45" title="Postman" />
+      <img src="https://cdn.jsdelivr.net/gh/tandpfun/skill-icons/icons/MySQL-Dark.svg" height="45" alt="MySQL" title="MySQL" />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kaggle/kaggle-original-wordmark.svg" height="45" alt="SQLite" title="SQLite" />
+      <img src="https://cdn.jsdelivr.net/gh/tandpfun/skill-icons/icons/Git.svg" height="45" alt="Git" title="Git" />
+      <img src="https://cdn.jsdelivr.net/gh/tandpfun/skill-icons/icons/Github-Light.svg" height="45" alt="GitHub" title="GitHub" />
     </div>
   </div>
 </div>
@@ -180,182 +192,126 @@
   font-size: 2.2rem;
   margin: 3rem 0 2rem;
 ">
-  🤝 Connect With Me
+  🌐 Connect With Me
 </h2>
 
 <div style="
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 15px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
   margin: 2rem auto;
-  max-width: 800px;
+  max-width: 1000px;
 ">
-  <!-- LinkedIn -->
+  <!-- LinkedIn Card -->
   <a href="https://www.linkedin.com/in/ahmed-kadiwala-789831265/" target="_blank" style="
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    padding: 12px;
-    background: rgba(0, 119, 181, 0.1);
-    border-radius: 10px;
-    border: 1px solid rgba(0, 119, 181, 0.3);
-    color: white;
+    background: rgba(10, 102, 194, 0.1);
+    border-radius: 16px;
+    padding: 1.5rem;
+    border: 1px solid rgba(10, 102, 194, 0.3);
     text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.3s ease;
   ">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="24" />
-    <span>LinkedIn</span>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="50" alt="LinkedIn" style="margin-bottom: 1rem;" />
+    <h3 style="margin: 0; color: #00b894;">LinkedIn</h3>
+    <p style="margin: 0.5rem 0 0; font-size: 0.9rem; text-align: center;">Professional Network</p>
   </a>
 
-  <!-- GitHub -->
+  <!-- GitHub Card -->
   <a href="https://github.com/AhmedKadiwala" target="_blank" style="
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    padding: 12px;
     background: rgba(36, 41, 46, 0.1);
-    border-radius: 10px;
-    border: 1px solid rgba(36, 41, 46, 0.3);
-    color: white;
+    border-radius: 16px;
+    padding: 1.5rem;
+    border: 1px solid rgba(255,255,255,0.2);
     text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.3s ease;
   ">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="24" />
-    <span>GitHub</span>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="50" alt="GitHub" style="margin-bottom: 1rem;" />
+    <h3 style="margin: 0; color: #00b894;">GitHub</h3>
+    <p style="margin: 0.5rem 0 0; font-size: 0.9rem; text-align: center;">My Projects</p>
   </a>
 
-  <!-- LeetCode -->
+  <!-- LeetCode Card -->
   <a href="https://leetcode.com/u/kadiwalaahmed7864/" target="_blank" style="
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    padding: 12px;
     background: rgba(255, 161, 22, 0.1);
-    border-radius: 10px;
+    border-radius: 16px;
+    padding: 1.5rem;
     border: 1px solid rgba(255, 161, 22, 0.3);
-    color: white;
     text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.3s ease;
   ">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/leetcode/leetcode-original.svg" width="24" />
-    <span>LeetCode</span>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/leetcode/leetcode-original.svg" width="50" alt="LeetCode" style="margin-bottom: 1rem;" />
+    <h3 style="margin: 0; color: #00b894;">LeetCode</h3>
+    <p style="margin: 0.5rem 0 0; font-size: 0.9rem; text-align: center;">Coding Solutions</p>
   </a>
 
-  <!-- Coding Ninjas -->
+  <!-- Coding Ninjas Card -->
   <a href="https://www.naukri.com/code360/profile/42e53f5a-6b3f-4019-b0f8-2b398f69f48c" target="_blank" style="
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    padding: 12px;
     background: rgba(255, 87, 34, 0.1);
-    border-radius: 10px;
+    border-radius: 16px;
+    padding: 1.5rem;
     border: 1px solid rgba(255, 87, 34, 0.3);
-    color: white;
     text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.3s ease;
   ">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original.svg" width="24" style="filter: brightness(0) invert(1);" />
-    <span>Coding Ninjas</span>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original.svg" width="50" alt="Coding Ninjas" style="margin-bottom: 1rem; filter: brightness(0) invert(1);" />
+    <h3 style="margin: 0; color: #00b894;">Coding Ninjas</h3>
+    <p style="margin: 0.5rem 0 0; font-size: 0.9rem; text-align: center;">Programming Profile</p>
   </a>
 </div>
-<!-- Clean Professional Footer -->
+
+<!-- Footer -->
 <div style="
   margin-top: 4rem;
   padding: 2rem 1.5rem;
   background: rgba(20, 20, 40, 0.8);
   border-top: 1px solid rgba(0, 184, 148, 0.2);
-  position: relative;
-  overflow: hidden;
+  border-radius: 0 0 16px 16px;
 ">
-  <!-- Subtle animated background -->
-  <div style="
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: radial-gradient(circle at 50% 50%, rgba(0, 184, 148, 0.05) 0%, transparent 70%);
-    z-index: 0;
-  "></div>
-
   <div style="
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: relative;
-    z-index: 1;
     gap: 1rem;
   ">
-    <!-- Footer Navigation -->
-    <div style="
-      display: flex;
-      gap: 1.5rem;
-      flex-wrap: wrap;
-      justify-content: center;
-    ">
-      <a href="#about" style="
-        color: rgba(255, 255, 255, 0.8);
-        text-decoration: none;
-        transition: all 0.3s ease;
-        font-size: 0.9rem;
-      ">About</a>
-      <a href="#tech-stack" style="
-        color: rgba(255, 255, 255, 0.8);
-        text-decoration: none;
-        transition: all 0.3s ease;
-        font-size: 0.9rem;
-      ">Tech Stack</a>
-      <a href="#connect" style="
-        color: rgba(255, 255, 255, 0.8);
-        text-decoration: none;
-        transition: all 0.3s ease;
-        font-size: 0.9rem;
-      ">Connect</a>
-    </div>
- <!-- Build Info -->
     <p style="
       margin: 0;
       font-size: 0.85rem;
       color: rgba(255, 255, 255, 0.6);
-      display: flex;
-      align-items: center;
-      gap: 0.5rem;
     ">
-      <span>Built with</span>
-      <span style="color: #00b894;">♥</span>
-      <span>using</span>
-      <a href="https://code.visualstudio.com/" target="_blank" style="
-        color: #00b894;
-        text-decoration: none;
-        display: flex;
-        align-items: center;
-        gap: 0.25rem;
-      ">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="14" />
-        VS Code
-      </a>
-    </p>
- <!-- Copyright -->
-    <p style="
-      margin: 0;
-      font-size: 0.8rem;
-      color: rgba(255, 255, 255, 0.5);
-    ">
-      © <span id="currentYear"></span> Ahmed Kadiwala. All rights reserved.
+      © <span id="currentYear">2024</span> Ahmed Kadiwala. All rights reserved.
     </p>
   </div>
 </div>
 
 <script>
-// Auto-update copyright year
 document.addEventListener('DOMContentLoaded', function() {
   document.getElementById('currentYear').textContent = new Date().getFullYear();
 });
 </script>
 
 <style>
+  a {
+    transition: all 0.3s ease;
+  }
   a:hover {
-    color: #00b894 !important;
-    text-shadow: 0 0 8px rgba(0, 184, 148, 0.3);
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 184, 148, 0.3);
   }
 </style>
+</div>
