@@ -1,6 +1,5 @@
 <div align="center">
 
-<!-- Header Section -->
 <div style="
   position: relative;
   padding: 2rem;
@@ -11,10 +10,8 @@
   box-shadow: 0 10px 30px rgba(0, 184, 148, 0.2);
   overflow: hidden;
 ">
-  <!-- Banner Image -->
   <img src="https://raw.githubusercontent.com/AhmedKadiwala/AhmedKadiwala/main/car.gif" alt="Developer Banner" width="85%" style="border-radius: 12px;" />
   
-  <!-- Profile View Counter -->
   <div style="
     position: absolute;
     top: 20px;
@@ -30,50 +27,8 @@
   ">
     <img src="https://komarev.com/ghpvc/?username=AhmedKadiwala&label=Profile+Views&color=00b894&style=flat" alt="Profile Views" />
   </div>
-
-  <!-- Quick Links -->
-  <div style="
-    position: absolute;
-    bottom: 20px;
-    left: 0;
-    right: 0;
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    flex-wrap: wrap;
-  ">
-    <a href="https://github.com/AhmedKadiwala" target="_blank" style="
-      background: rgba(36, 41, 46, 0.7);
-      padding: 8px 16px;
-      border-radius: 20px;
-      color: white;
-      text-decoration: none;
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      border: 1px solid rgba(255,255,255,0.1);
-    ">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="18" />
-      GitHub
-    </a>
-    <a href="https://www.linkedin.com/in/ahmed-kadiwala-789831265/" target="_blank" style="
-      background: rgba(10, 102, 194, 0.7);
-      padding: 8px 16px;
-      border-radius: 20px;
-      color: white;
-      text-decoration: none;
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      border: 1px solid rgba(255,255,255,0.1);
-    ">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="18" />
-      LinkedIn
-    </a>
-  </div>
 </div>
 
-<!-- Dynamic Typing Intro -->
 <div style="
   background: linear-gradient(145deg, #0f2027, #203a43, #2c5364);
   padding: 2.5rem;
@@ -82,17 +37,12 @@
   border-left: 5px solid #00b894;
   box-shadow: 0 10px 30px rgba(0, 184, 148, 0.15);
 ">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=1200&pause=800&color=00B894&background=FFFFFF00&center=true&vCenter=true&multiline=true&width=900&height=300&lines=Hello+World!+👋;I'm+Ahmed+Kadiwala;Data+Science+Specialist;AI%2FML+Engineer;Python+Developer;Open-Source+Contributor" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=1200&pause=800&color=00B894&background=FFFFFF00&center=true&vCenter=true&multiline=true&width=900&height=300&lines=Hello+World!+👋;I'm+Ahmed+Kadiwala;Data+Science+Specialist;AI%2FML+Engineer;Python+Developer;Open-Source+Contributor" alt="Typing SVG" style="width: 100%; max-width: 900px;" />
 </div>
 
-<!-- GitHub Stats -->
-<h2 style="
-  color: #00b894;
-  font-size: 2.2rem;
-  margin: 2.5rem 0;
-">
-  📊 GitHub Analytics
-</h2>
+---
+
+## 📊 GitHub Analytics
 
 <div style="
   display: grid;
@@ -101,7 +51,6 @@
   margin: 2.5rem auto;
   max-width: 1200px;
 ">
-  <!-- Stats Card -->
   <div style="
     background: rgba(25, 25, 45, 0.9);
     border-radius: 18px;
@@ -109,7 +58,7 @@
     border: 1px solid rgba(255,255,255,0.15);
     box-shadow: 0 10px 30px rgba(0,0,0,0.25);
   ">
-    <img src="https://github-readme-stats.vercel.app/api?username=AhmedKadiwala&show_icons=true&theme=dark&hide_border=true&bg_color=00000000&title_color=00b894" alt="GitHub Stats" width="100%" />
+    <img src="https://github-readme-stats.vercel.app/api?username=AhmedKadiwala&show_icons=true&theme=dark&hide_border=true&bg_color=00000000&title_color=00b894&hide=issues,prs" alt="GitHub Stats" width="100%" />
     <div style="text-align: center; margin-top: 1rem;">
       <a href="https://github.com/AhmedKadiwala?tab=repositories" target="_blank" style="
         background: linear-gradient(to right, #00b894, #0984e3);
@@ -123,7 +72,6 @@
     </div>
   </div>
   
-  <!-- Languages Card -->
   <div style="
     background: rgba(25, 25, 45, 0.9);
     border-radius: 18px;
@@ -135,14 +83,9 @@
   </div>
 </div>
 
-<!-- Tech Stack Section -->
-<h2 style="
-  color: #00b894;
-  font-size: 2.2rem;
-  margin: 3rem 0 2rem;
-">
-  🛠️ Tech Stack
-</h2>
+---
+
+## 🛠️ Tech Stack
 
 <div style="
   display: grid;
@@ -151,7 +94,6 @@
   margin: 2rem auto;
   max-width: 1200px;
 ">
-  <!-- Data Science Card -->
   <div style="
     background: rgba(30, 30, 50, 0.9);
     border-radius: 16px;
@@ -169,7 +111,6 @@
     </div>
   </div>
 
-  <!-- Databases & Tools Card -->
   <div style="
     background: rgba(30, 30, 50, 0.9);
     border-radius: 16px;
@@ -186,14 +127,9 @@
   </div>
 </div>
 
-<!-- Connect Section -->
-<h2 style="
-  color: #00b894;
-  font-size: 2.2rem;
-  margin: 3rem 0 2rem;
-">
-  🌐 Connect With Me
-</h2>
+---
+
+## 🌐 Connect With Me
 
 <div style="
   display: grid;
@@ -202,7 +138,6 @@
   margin: 2rem auto;
   max-width: 1000px;
 ">
-  <!-- LinkedIn Card -->
   <a href="https://www.linkedin.com/in/ahmed-kadiwala-789831265/" target="_blank" style="
     background: rgba(10, 102, 194, 0.1);
     border-radius: 16px;
@@ -220,7 +155,6 @@
     <p style="margin: 0.5rem 0 0; font-size: 0.9rem; text-align: center;">Professional Network</p>
   </a>
 
-  <!-- GitHub Card -->
   <a href="https://github.com/AhmedKadiwala" target="_blank" style="
     background: rgba(36, 41, 46, 0.1);
     border-radius: 16px;
@@ -238,7 +172,6 @@
     <p style="margin: 0.5rem 0 0; font-size: 0.9rem; text-align: center;">My Projects</p>
   </a>
 
-  <!-- LeetCode Card -->
   <a href="https://leetcode.com/u/kadiwalaahmed7864/" target="_blank" style="
     background: rgba(255, 161, 22, 0.1);
     border-radius: 16px;
@@ -256,7 +189,6 @@
     <p style="margin: 0.5rem 0 0; font-size: 0.9rem; text-align: center;">Coding Solutions</p>
   </a>
 
-  <!-- Coding Ninjas Card -->
   <a href="https://www.naukri.com/code360/profile/42e53f5a-6b3f-4019-b0f8-2b398f69f48c" target="_blank" style="
     background: rgba(255, 87, 34, 0.1);
     border-radius: 16px;
@@ -275,7 +207,8 @@
   </a>
 </div>
 
-<!-- Footer -->
+---
+
 <div style="
   margin-top: 4rem;
   padding: 2rem 1.5rem;
