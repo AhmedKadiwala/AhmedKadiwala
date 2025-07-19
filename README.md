@@ -29,17 +29,6 @@
   </div>
 </div>
 
-<div style="
-  background: linear-gradient(145deg, #0f2027, #203a43, #2c5364);
-  padding: 2.5rem;
-  border-radius: 18px;
-  margin: 3rem 0;
-  border-left: 5px solid #00b894;
-  box-shadow: 0 10px 30px rgba(0, 184, 148, 0.15);
-">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=1200&pause=800&color=00B894&background=FFFFFF00&center=true&vCenter=true&multiline=true&width=900&height=300&lines=Hello+World!+👋;I'm+Ahmed+Kadiwala;Data+Science+Specialist;AI%2FML+Engineer;Python+Developer;Open-Source+Contributor" alt="Typing SVG" style="width: 100%; max-width: 900px;" />
-</div>
-
 ---
 
 ## 📊 GitHub Analytics
@@ -167,7 +156,7 @@
     align-items: center;
     transition: all 0.3s ease;
   ">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/leetcode/leetcode-plain.svg" width="50" alt="LeetCode" style="margin-bottom: 1rem;" />
+    <img src="https://upload.wikimedia.org/wikipedia/commons/8/8e/LeetCode_Logo_1.png" width="50" alt="LeetCode" style="margin-bottom: 1rem;" />
     <h3 style="margin: 0; color: #00b894;">LeetCode</h3>
     <p style="margin: 0.5rem 0 0; font-size: 0.9rem; text-align: center;">Coding Solutions</p>
   </a>
@@ -210,24 +199,9 @@
       font-size: 0.85rem;
       color: rgba(255, 255, 255, 0.6);
     ">
-      © <span id="currentYear">2024</span> Ahmed Kadiwala. All rights reserved.
+      © 2024 Ahmed Kadiwala. All rights reserved.
     </p>
   </div>
 </div>
 
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  document.getElementById('currentYear').textContent = new Date().getFullYear();
-});
-</script>
-
-<style>
-  a {
-    transition: all 0.3s ease;
-  }
-  a:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 5px 15px rgba(0, 184, 148, 0.3);
-  }
-</style>
 </div>
