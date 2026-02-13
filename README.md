@@ -44,7 +44,7 @@
     max-width:320px;
     text-align:center;
   ">
-    <img src="https://github-readme-stats.vercel.app/api?username=AhmedKadiwala&show_icons=true&theme=dark&hide_border=true&bg_color=00000000&title_color=00b894&include_all_commits=true&count_private=true" alt="GitHub Stats" width="100%" />
+    <img src="https://github-readme-stats.vercel.app/api?username=AhmedKadiwala&show_icons=true&theme=dark&hide_border=true&include_all_commits=true" alt="GitHub Stats" width="100%" />
     <div style="margin-top:10px;">
       <a href="https://github.com/AhmedKadiwala?tab=repositories" target="_blank" style="
         background: linear-gradient(to right, #00b894, #0984e3);
@@ -67,10 +67,11 @@
     max-width:320px;
     text-align:center;
   ">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs?username=AhmedKadiwala&layout=compact&theme=dark&hide_border=true&bg_color=00000000&title_color=00b894" alt="Top Languages" width="100%" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs?username=AhmedKadiwala&layout=compact&theme=dark&hide_border=true" alt="Top Languages" width="100%" />
   </div>
 
 </div>
+
 
 ---
 
